@@ -22,3 +22,4 @@ int main() {
 }
 
 // Feature: input validation (B1)
+// Feature: input validation (B2)
