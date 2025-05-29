@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 int main() {
     int a, b;
     char op;
-    printf("Enter expression (e.g. 3 + 4): ");
+    printf("Enter an expression (e.g. 3 + 4): ");
     scanf("%d %c %d", &a, &op, &b);
-    
     switch(op) {
         case '+': printf("Result: %d\n", a + b); break;
         case '-': printf("Result: %d\n", a - b); break;
@@ -20,8 +18,3 @@ int main() {
     }
     return 0;
 }
-
-// Feature: input validation (B1)
-// Feature: input validation (B2)
-// Feature: enhanced UI (B4)
-
